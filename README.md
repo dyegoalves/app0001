@@ -10,8 +10,9 @@ Currently, two official plugins are available:
 <!-- Comands -->
 Logica preciso executar de algum jeito no n8n para rodar prod e dev caso haja mudanças no projeto
 Prod
-# docker-compose -f docker-compose.prod.yml up --build -d
+** docker-compose -f docker-compose.prod.yml up --build -d
 Dev
-# docker-compose -f docker-compose.dev.yml up --build -d
+** docker-compose -f docker-compose.dev.yml up --build -d
 
-
+Ngrok
+** ngrok http --url=humpback-relative-primarily.ngrok-free.app 5678

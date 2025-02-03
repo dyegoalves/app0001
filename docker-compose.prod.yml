@@ -1,8 +1,11 @@
 services:
-  prod_aap:
-    container_name: prod_aap
+  prodaap:
+    container_name: prodaap
     build:
       context: .
       dockerfile: Dockerfile.prod
     ports:
       - "8000:8000"
+networks:
+  default:
+    driver: bridge
