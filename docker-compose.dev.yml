@@ -1,0 +1,8 @@
+#docker-compose -f docker-compose.dev.yml up --build
+services:
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "7000:7000"
