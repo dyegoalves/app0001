@@ -1,7 +1,6 @@
-# docker-compose -f docker-compose.prod.yml up --build -d
-
 services:
-  react-app:
+  prod_aap:
+    container_name: prod_aap
     build:
       context: .
       dockerfile: Dockerfile.prod

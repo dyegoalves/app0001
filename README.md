@@ -6,3 +6,12 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+<!-- Comands -->
+Logica preciso executar de algum jeito no n8n para rodar prod e dev caso haja mudanças no projeto
+Prod
+# docker-compose -f docker-compose.prod.yml up --build -d
+Dev
+# docker-compose -f docker-compose.dev.yml up --build -d
+
+
